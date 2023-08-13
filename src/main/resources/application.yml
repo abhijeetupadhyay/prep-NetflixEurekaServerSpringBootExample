@@ -1,0 +1,10 @@
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+spring:
+  application:
+    name: netflix-eureka-server-spring-boot
+
+server:
+  port: 8082
